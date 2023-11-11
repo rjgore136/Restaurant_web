@@ -1,0 +1,306 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: black;
+    color: white;
+}
+.logo h1{
+    font-size: 2.3rem;
+    color: rgb(255, 72, 0);
+    padding-right: 20px;    
+}
+.icon i{
+    font-size: 1.5rem;
+    margin-inline: 20px;
+    background-color: white;
+    color: black;
+    padding: 11px;
+    border-radius: 2px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-left:50px; 
+    height: 2.6rem;
+
+}
+.icon i:hover{
+    color: rgb(255, 72, 0);
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 2px rgb(209, 198, 198);
+}
+nav input{
+    width: 40vw;
+    padding:11px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.input i{
+    margin-left: -30px;
+    color: black;
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 160px;
+}
+.main img{
+    width: 40%;
+    margin-top: 4px;
+}
+.main .text{
+    width: 500px;
+    margin-top: 110px;
+}
+.text h1{
+    font-size: 66px;
+}
+.text p{
+    color: #f6f5f5;
+    margin-top:22px
+}
+.text button{
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.crd{
+    width: 70vw;
+    margin-left:20%;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.crd .card{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 4px;
+    padding:11px;
+    margin-inline: 15px;
+    /* margin-block: 10px; */
+    margin-top: 30px;
+}
+.crd img{
+    width: 300px;
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #f6f5f5;
+    mix-blend-mode:multiply;
+}
+.card h2{
+    margin: 12px;
+}
+.card p{
+    margin: 12px;
+}
+.card button{
+    margin: 12px;
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+}
+.crd .Blog{
+    width: 350px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 4px;
+    padding:11px;
+    margin-inline: 15px;
+    /* margin-block: 10px; */
+    margin-top: 30px;   
+}
+.Blog h2{
+    margin: 12px;
+}
+.Blog p{
+    margin: 12px;
+}
+.Blog a{
+    margin: 12px;
+    margin-top: 30px;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 140px;
+    height: 30px;
+}
+.Blog img{
+    width:300px;
+    height:40vh;
+}
+
+.review{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    margin-top: 30px;
+    width: 50%;
+    height: 55vh;
+}
+.review .customer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    /* margin: auto; */
+    text-align: center;
+    /* margin-inline: 10px; */
+    transition: 0.5s ease;
+}
+.customer img{
+    width: 45%;
+    height: 30vh;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 11px;
+}
+.customer i{
+    font-size: 22px;
+    color: rgb(255, 132, 0);   
+    margin-top: 11px;
+}
+.customer p{
+    padding: 15px 25px 15px 15px;
+}
+.head h1{
+    text-align:left;
+    font-size: 44px;
+    margin-top: 33px;
+}
+.head span{
+    color: rgb(255, 119, 0);
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 140px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #f6f5f5;
+    font-size: 20px;
+    margin-inline: 11px;
+    background-color: rgb(255, 119, 0);;
+    margin-top: 20px;
+    cursor: pointer;
+    /* margin-bottom: 50px; */
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 55px;
+    margin-top: 77px;
+    color: black;
+
+}
+.txt{
+    margin-top: 12px;    
+}
+
+.login{
+    display: none;
+    width: 200px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 6px;
+    color: black;
+    position: absolute;
+    margin-left: 81%;
+}
+
+.login input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 160px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 13px;
+}
+
+.login button{
+    width: 140px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 60, 0);
+    color: white;
+    border-radius: 2px;
+    font-size: 20px;
+    margin-top: 22px;
+}
+
+.nav{
+    display: none;
+    width: 160px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 6px;
+    color: black;
+    position: absolute;
+    margin-left: 81%;   
+}
+
+.nav p{
+    width: 110px;
+    color: black;
+    margin-left: 20px;
+    padding: 11px;
+}
+
+.nav p:hover{
+    background-color: #f1efef;
+    color:rgb(255, 102, 0);
+    cursor: pointer;
+
+}
+.toogle{
+    display: block;
+}
